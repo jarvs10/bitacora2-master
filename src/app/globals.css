@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Young+Serif&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+  }
+
+  body {
+    background-color: #e7e5e5;;
+  }
+}
